@@ -1,2 +1,4 @@
-# template_cursos
-Repositório de exemplo para criar outros repositórios com conteúdo de cursos.
+# UNIESP Programação de Dispositivos Moveis P5
+
+Repositório com o conteúdo da matéria de Programação de Dispositivos Moveis - p5B.
+
