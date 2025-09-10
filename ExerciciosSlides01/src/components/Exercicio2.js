@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 100
+        padding: 30
     }
 
 });
