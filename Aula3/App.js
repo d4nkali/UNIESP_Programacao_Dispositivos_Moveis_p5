@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
+import LoginsScreen from "./src/screens/LoginsScreen";
 
 const App = () => {
     return (
-        <View>
-            <Text>App</Text>
-        </View>
+
+        <LoginsScreen />
+
     );
 };
 
