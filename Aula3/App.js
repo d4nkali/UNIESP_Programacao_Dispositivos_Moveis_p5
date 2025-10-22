@@ -1,13 +1,14 @@
 import { View, Text } from "react-native";
 import React from "react";
-import LoginsScreen from "./src/screens/LoginsScreen";
+import LoginScreen from "./src/screens/LoginScreen";
 import HomeScreen from "./src/screens/HomeScreen";
 
 const App = () => {
     return (
 
-        // <LoginsScreen />
-        <HomeScreen />
+        <View style={{ flex: 1 }}>
+            <LoginScreen />
+        </View>
 
     );
 };
