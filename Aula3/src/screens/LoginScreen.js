@@ -3,9 +3,14 @@ import React, { useState } from "react";
 import { AntDesign } from "@expo/vector-icons";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-const LoginScreen = () => {
+const LoginScreen = ({ navigation }) => {
+
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+
+    const goToHomeScreen = () => {
+        navigation.navigate("Home");
+    };
 
     return (
         <View style={styles.container}>
@@ -33,7 +38,7 @@ const LoginScreen = () => {
                 onChangeText={setPassword}
             />
 
-            <Button title="Entrar" />
+            <Button title="Entrar" onPress={goToHomeScreen} />
 
             <View style={styles.linksRow}>
                 <Text>Esqueceu a senha?</Text>
